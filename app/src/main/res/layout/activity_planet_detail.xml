@@ -1,0 +1,84 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/imageview_detail"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/name_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom :"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/distance_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance au Soleil :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/mass_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Masse :"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/revolution_period_detail"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="Periode de révolution :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/moons_detail"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Nombre de satellites orbitants :"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#102185"
+            android:text="Retour" />
+
+
+
+
+    </LinearLayout>
+
+
