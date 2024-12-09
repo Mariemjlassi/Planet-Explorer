@@ -22,7 +22,10 @@ public class PlanetDetailActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_planet_detail);
 
-
+        Button backButton = findViewById(R.id.back_button);
+        backButton.setOnClickListener(v -> {
+            finish();
+        });
 
 
         ImageView imageView = findViewById(R.id.imageview_detail);
